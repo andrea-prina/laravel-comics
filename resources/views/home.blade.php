@@ -16,10 +16,9 @@
                 </a>
             </div>
         @endforeach
-
+        
+        <button class="btn branded-button">LOAD MORE</button>
     </div>
-    {{--TODO: FIX BUTTON --}}
-    <button class="btn branded-button">LOAD MORE</button>
     
     <div class="action-bar">
         <div class="container">
