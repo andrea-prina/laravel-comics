@@ -11702,3 +11702,39 @@ fieldset:disabled .btn {
   }
 }
 
+header img {
+  width: 70px;
+}
+
+nav > ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+nav > ul li {
+  display: inline-block;
+  margin: 0 0 0 2rem;
+  border-bottom: 5px solid white;
+}
+
+nav > ul li.active,
+nav > ul li:hover {
+  border-bottom: 5px solid #0282F9;
+}
+
+nav > ul li,
+nav > ul li a {
+  padding: 2.5rem 0;
+}
+
+nav > ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+nav > ul li.active a,
+nav > ul li:hover a {
+  color: #0282F9;
+}
+

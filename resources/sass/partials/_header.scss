@@ -1,0 +1,33 @@
+@import "./variables";
+
+    header {
+        
+        img {
+            width: 70px;
+        }
+    }
+    nav > ul {
+        list-style: none;
+        margin-bottom: 0;
+            
+        li {
+            display: inline-block;
+            margin: 0 0 0 2rem;
+            border-bottom: 5px solid white;
+            &.active, &:hover {
+                border-bottom: 5px solid $brand-color;
+            }
+            
+            &, a {
+                padding: 2.5rem 0;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+            &.active a, &:hover a {
+                color: $brand-color;
+            }
+        }
+    }
