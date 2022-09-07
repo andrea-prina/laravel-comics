@@ -11,8 +11,8 @@
     
     @include("includes.header")
 
-    <main>
-
+    <main">
+        @yield('content')
     </main>
 
     @include("includes.footer")

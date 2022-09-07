@@ -11706,35 +11706,109 @@ header img {
   width: 70px;
 }
 
-nav > ul {
+header nav > ul {
   list-style: none;
   margin-bottom: 0;
 }
 
-nav > ul li {
+header nav > ul li {
   display: inline-block;
   margin: 0 0 0 2rem;
   border-bottom: 5px solid white;
 }
 
-nav > ul li.active,
-nav > ul li:hover {
+header nav > ul li.active,
+header nav > ul li:hover {
   border-bottom: 5px solid #0282F9;
 }
 
-nav > ul li,
-nav > ul li a {
+header nav > ul li,
+header nav > ul li a {
   padding: 2.5rem 0;
 }
 
-nav > ul li a {
+header nav > ul li a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
 }
 
-nav > ul li.active a,
-nav > ul li:hover a {
+header nav > ul li.active a,
+header nav > ul li:hover a {
   color: #0282F9;
+}
+
+main {
+  background-color: #000;
+  color: #FFF;
+}
+
+main .section-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #0282F9;
+  position: absolute;
+  padding: 0.5rem 2rem;
+  top: -1.2rem;
+  left: 0.5rem;
+}
+
+main .branded-button {
+  background-color: #0282F9;
+  padding: 0.5rem 4rem;
+  color: white;
+}
+
+.jumbotron {
+  position: relative;
+  background-image: url("/assets/img/jumbotron.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.action-bar {
+  background-color: #0282F9;
+  color: #FFF;
+}
+
+.action-bar img {
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.social-bar {
+  padding: 2rem 0;
+  background-color: #303030;
+}
+
+.social-bar .btn {
+  border: 1px solid #0282F9;
+  color: white;
+}
+
+.social-bar a {
+  text-decoration: none;
+  color: #0282F9;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+footer {
+  background-image: url("/assets/img/footer-bg.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 0.75rem;
+}
+
+footer .background-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
 }
 
