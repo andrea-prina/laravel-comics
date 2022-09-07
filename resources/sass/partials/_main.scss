@@ -3,6 +3,7 @@
 main {
     background-color: #000;
     color: #FFF;
+
     .section-label {
         font-size: 1.2rem;
         font-weight: bold;
@@ -12,12 +13,15 @@ main {
         top: -1.2rem;
         left: 0.5rem;
     }
+    
     .branded-button {
         background-color: $brand-color;
         padding: 0.5rem 4rem;
         color: white;
     }
 }
+
+
 .jumbotron {
     position: relative;
     background-image: url("/assets/img/jumbotron.jpg");
@@ -33,7 +37,6 @@ main {
         margin-right: 0.5rem;
     }
 }
-
 
 .social-bar {
     padding: 2rem 0;

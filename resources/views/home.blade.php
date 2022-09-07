@@ -2,14 +2,25 @@
 
 @section('content')
 
-    <div class="container-fluid jumbotron">
-    </div>
+    <div class="container-fluid jumbotron"></div>
+
     <div class="container d-flex flex-wrap justify-content-center pt-4 pb-4 position-relative">
         <div class="section-label">CURRENT SERIES</div>
 
-        <button class="btn branded-button">LOAD MORE</button>
-    </div>
+        {{-- CARDS --}}
+        @foreach ($comics as $comic)
+            <div class="comic-card">
+                <a href="">
+                    <img src="{{ $comic->image }}" alt="">
+                    <p class="text-uppercase text-center">{{ $comic->title }}</p>
+                </a>
+            </div>
+        @endforeach
 
+    </div>
+    {{--TODO: FIX BUTTON --}}
+    <button class="btn branded-button">LOAD MORE</button>
+    
     <div class="action-bar">
         <div class="container">
             <div class="row p-5">

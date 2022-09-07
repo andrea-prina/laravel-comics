@@ -11812,3 +11812,23 @@ footer a {
   color: grey;
 }
 
+.comic-card {
+  width: calc((100% - 12rem) / 6);
+  margin: 1rem;
+}
+
+.comic-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.comic-card a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
